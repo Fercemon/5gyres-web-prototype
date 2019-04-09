@@ -1,0 +1,810 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+/*//////general settings/////*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    color: #737373;
+    position: relative;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+a{
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.link{
+ color: #FFFDFD;
+}
+
+h1{
+    margin: 1em 0;
+    text-align: center;
+    font-size: 1em;
+    color: #707070;
+}
+
+p{
+    text-align: justify;
+}
+
+
+/*//////mobile version/////*/
+
+/*//////nav bar for mobile version/////*/
+header{
+  background-image: url(../img/large/backround_blue.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+
+
+.menu-bar{
+    width: 100%;
+     text-align: right;
+}
+
+.burger-menu{
+   padding: 0.8em;
+    color: #004A86;
+    font-weight: 700;
+}
+
+.logo{
+    display: block;
+    float: left;
+    height: 2em;
+    margin: 0.5em;
+
+}
+
+#mobile-nav{
+    height: 0;
+    width: 100%;
+    text-align: center;
+    border-top: 1px solid #707070;;
+    overflow-y: hidden;
+    transition: 0.5s;
+}
+
+#mobile-nav a{
+    display: block;
+    font-size: 1.5em;
+    color: #707070;
+    text-decoration: none;
+    border-bottom: 1px solid #707070;
+    padding: 0.5em 0;
+}
+
+#mobile-nav a:hover{
+    background-color: #004A86;
+    color: #fff;
+}
+
+
+
+/*//////nav for desktop display none in mobile version/////*/
+
+#desktop-nav{
+    display: none;
+}
+
+/*////// home page///////////////*/
+
+ /*////// main section///////////////*/
+
+.main{
+    padding-bottom: 7em;
+}
+
+.home-sections{
+    padding: 2em 1em 0 1em;
+}
+
+.home-section1{
+    margin-bottom: 2em;
+}
+.map{
+    width: 100%;
+}
+
+.slogan{
+    text-align: center;
+    margin: 1em 0;
+
+}
+
+.challenge-btn{
+    display: block;
+    width: 12em;
+    margin: 0 auto;
+    background-color: #646161;
+    text-align: center;
+    padding: 0.5em 0;
+}
+
+.challenge-btn:hover{
+    background-color: #004A86;
+    color: #fff;
+}
+
+.wave{
+    display: block;
+    height: 1em;
+    width: auto;
+    margin: 0 auto;
+}
+
+.quote{
+    width: 100%;
+}
+
+
+.p-mission{
+    margin-bottom: 1em;
+    text-align: justify;
+}
+
+.mission-btn{
+        display: block;
+    width: 12em;
+    margin: 0 auto;
+    background-color: #646161;
+    text-align: center;
+    padding: 0.5em 0;
+    }
+
+.mission-btn:hover{
+        background-color: #004A86;
+    color: #fff;
+    }
+
+
+.imgs{
+    position: relative;
+    width: 100%;
+    z-index: 2;
+}
+
+.imgs img{
+    width: 100%;
+    height: auto;
+    margin: 1em 0;
+}
+
+
+.footer{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 0.2fr;
+    grid-template-areas:
+        "icons-wrapper"
+        "wave-f";
+    width: 100%;
+    background-image: url(../img/large/backround_blue.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+    align-items: center;
+}
+
+.icons-wrapper{
+    grid-area: icons-wrapper;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas:
+        ". fb inst tw h .";
+    margin-top: 10em;
+
+}
+
+.fb{
+    grid-area: fb;
+}
+
+.inst{
+    grid-area: inst;
+}
+
+.tw{
+    grid-area: tw;
+}
+
+.h{
+    grid-area: h;
+}
+
+.wave-f{
+    grid-area: wave-f;
+    display: block;
+    margin: 1em auto 2em auto;
+    height: 1em;
+}
+
+
+.icons-box{
+    margin: 0 auto;
+    height: 3em;
+    width: 3em;
+}
+
+.footer a{
+    display: block;
+    font-size: 1.2em;
+    color: #fff;
+    padding: 0.5em;
+    background-color: #555555;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+.footer a:hover{
+    background-color: #000;
+}
+
+
+
+/*///////////////////////////CHALLENGE PAGE/////////////*/
+
+.explainer{
+    width: 100%;
+    height: auto;
+}
+
+.h1-pages{
+    padding-bottom: 0.5em;
+    border-bottom: 2px solid #22BECF;
+}
+
+
+.rules{
+    width: 100%;
+}
+
+.media-challenge{
+    text-align: center;
+}
+
+.media{
+    text-decoration: none;
+    background-color: #22BECF;
+    color: #707070;
+    border-radius: 50%;
+    padding: 0.5em 0.6em;
+}
+
+.media:hover{
+    background-color: #004A86;
+    color: #fff;
+}
+
+.media1{
+    padding: 0.5em 0.7em;
+}
+
+.media2{
+    margin: 1em;
+}
+
+.challenge-sections{
+    padding: 2em 1em 0 1em;
+    margin-bottom: 2em;
+
+}
+
+
+.game{
+    position: relative;
+    width: 100%;
+    height: 12em;
+    background-color: grey;
+    z-index: 2;
+}
+
+/*///////////E-SHOP PAGE///////////////////////*/
+
+.main-e-shop{
+    padding-bottom: 10em;
+}
+
+.e-shop-section{
+    padding: 0 1em;
+    text-align: center;
+}
+.p-e-shop{
+    margin: 2em;
+}
+
+.e-shop-btn{
+    margin: 2em auto;
+    text-align: center;
+    position: relative;
+}
+
+
+.e-shop-btn a{
+    padding: 0.5em;
+    color: #737373;
+    text-decoration: none;
+    border: 1px solid #737373;
+
+}
+
+.e-shop-btn a:hover{
+    color: #fff;
+    background-color: #004A86;
+}
+
+.e-shop-img{
+    position: relative;
+    width: 100%;
+    height: auto;
+    z-index: 2;
+}
+
+.i{
+   margin-top: 5em;
+}
+
+/*///////////portfolio PAGE///////////////////////*/
+
+.portfolio-section{
+    padding: 2em 1em 0 1em;
+}
+
+.my-stuffs{
+    position: relative;
+    width: 100%;
+    height: 12em;
+    background-color: grey;
+    z-index: 2;
+}
+
+.portfolio-btn{
+    margin: 2em auto;
+    text-align: center;
+    position: relative;
+    z-index: 2;
+}
+
+.portfolio-btn a{
+    padding: 0.5em;
+    color: #737373;
+    text-decoration: none;
+    border: 1px solid #737373;
+}
+
+.portfolio-btn a:hover{
+    color: #fff;
+    background-color: #004A86;
+}
+
+
+/*//////////////////////////more page///////////////////////////*/
+
+.more-section{
+    padding: 0 1em;
+    text-align: center;
+    position: relative;
+    margin-bottom: 2em;
+    z-index: 2;
+}
+
+
+/*///////////////////////DESKTOP VERSION////////////////*/
+
+/*//////////////nav bar for mobile version///////////*/
+
+@media all and (min-width: 1100px) {
+
+    /*//////////COMUN SETTINGS/////////////////*/
+
+    p{
+        font-size: 1vw;
+    }
+
+    #active{
+    background-color: #004A86;
+    color: #fff;
+    }
+
+    h1{
+        font-size: 1.5em;
+    }
+
+    /*//////////////turn off mobile nan//////////////*/
+
+.menu-bar{
+    display: none;
+}
+#mobile-nav{
+    display: none;
+}
+
+#desktop-nav{
+    display: block;
+    }
+
+/*//////////////////////General grid///////////////////*/
+    .wrapper{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 0.5fr 12fr;
+        grid-template-areas:
+            "header"
+            "main";
+    }
+
+    /*/////////////////////desktop nav grid////////*/
+    .header{
+        grid-area: header;
+        height: 5em;
+    }
+
+    #desktop-nav{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr;
+        grid-template-areas:
+            "about go-challenge logo support portfolio";
+        text-align: center;
+        align-items: center;
+
+    }
+
+    .nav-items{
+        font-size: 1.5em;
+        text-decoration: none;
+        color: #707070;
+        padding: 1.05em ;
+    }
+
+    .nav-items:hover{
+        background-color: #004A86;
+    color: #fff;
+    }
+
+    .about{
+        grid-area: about;
+    }
+
+    .go-challenge{
+        grid-area: go-challenge;
+    }
+
+    .logo{
+        grid-area: logo;
+        height: 4em;
+        margin: 0 auto;
+    }
+
+    .support{
+        grid-area: support;
+    }
+
+    .portfolio{
+        grid-area: portfolio;
+    }
+
+    .main{
+        grid-area: main;
+    }
+
+/*/////////////////////////home main section///////////////////*/
+
+    .main-home{
+         display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 0.1fr 0.8fr;
+        grid-template-areas:
+            "home-section1"
+            "wave"
+            "home-section2";
+        align-items: center;
+        margin-bottom: 22em;
+        padding: 0;
+
+    }
+
+    /*////////////////////home section1///////*/
+    .home-section1{
+        grid-area: home-section1;
+        margin: 3em 15%;
+    }
+
+    .map{
+        display: block;
+        width: 70%;
+        height: auto;
+        margin: 0 auto;
+    }
+
+    .slogan{
+        font-size: 1.5em;
+    }
+
+    .challenge-btn{
+    font-size: 1.5em;
+    padding: 0.5em;
+}
+
+    .wave{
+        grid-area: wave;
+        height: 3em;
+        margin: 2em auto;
+    }
+
+    /*////////////////////home section2///////*/
+    .home-section2{
+        grid-area: home-section2;
+        display: grid;
+        grid-template-columns: 0.5fr 1fr;
+        grid-template-rows: 1fr 0.1fr;
+        grid-template-areas:
+            "quote mission"
+            "gallery gallery";
+        column-gap: 4em;
+        padding: 0;
+        margin: 1em 10em 0 10em;
+    }
+
+    .quote{
+        grid-area: quote;
+        margin: auto;
+    }
+
+    .mission{
+        grid-area: mission;
+        margin-bottom: 2em;
+    }
+
+    .h1-mission{
+        font-size: 1.5em;
+    }
+
+    .mission-btn{
+    width: 15em;
+    margin: 0 auto 0 auto;
+    background-color: #646161;
+    text-align: center;
+    padding: 1em 0;
+    }
+
+    .mission-btn a{
+        font-size: 1em;
+    }
+
+
+    .gallery{
+        grid-area: gallery;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr;
+        grid-template-areas:
+            "img1 img2 img3 img4";
+        column-gap: 3em;
+    }
+
+    .img1{
+        grid-area: img1;
+    }
+
+    .img2{
+        grid-area: img2;
+    }
+
+    .img3{
+        grid-area: img3;
+    }
+
+    .img4{
+        grid-area: img4;
+    }
+
+/*////////////////////desktop footer////////////////*/
+
+.icons-wrapper{
+    grid-area: icons-wrapper;
+    display: grid;
+    grid-template-columns: 7fr 1fr 1fr 1fr 1fr 7fr;
+    grid-template-rows: 1fr;
+    grid-template-areas:
+        ". fb inst tw h .";
+    margin-top: 13em;
+
+}
+
+.wave-f{
+    height: 3em;
+    margin: 3em auto 6em auto;
+}
+
+
+.icons-box{
+    height: 4em;
+    width: 4em;
+}
+
+.footer a{
+    font-size: 1.5em;
+}
+
+/*///////////////challenge page//////////////*/
+
+    .main-challenge{
+         display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 0.5fr 0.1fr 1fr 0.1fr 0.8fr;
+        grid-template-areas:
+            "challenge-section1"
+            "wave"
+            "challenge-section2"
+            "wave2"
+            "challenge-section3";
+        align-items: center;
+        margin: 1em 15% 20em 15%;
+        padding: 0;
+    }
+
+    .challenge-section1{
+        grid-area: challenge-section1;
+        padding-top: 2em;
+
+    }
+
+    .explainer{
+        display: block;
+        width: 65%;
+        margin: 2em auto 0 auto;
+    }
+
+    .challenge-section2{
+        grid-area: challenge-section2;
+    }
+
+    .rules{
+        display: block;
+        width: 60%;
+        margin: 0 auto;
+    }
+
+    .media{
+    font-size: 1.5em;
+    border-radius: 50px;
+
+
+}
+
+.media:hover{
+    background-color: #004A86;
+    color: #fff;
+}
+
+
+
+
+    .wave2{
+        grid-area: wave2;
+    }
+
+    .challenge-section3{
+        grid-area: challenge-section3;
+            z-index: 2;
+    }
+
+    .game{
+        display: block;
+        width: 70%;
+        height: 30em;
+        margin: 0 auto;
+
+}
+
+
+/*///////////////////////////////support section///////////////*/
+
+    .main-e-shop{
+        margin: 4em 15% 20em 15%;
+        padding: 0;
+    }
+
+    .e-shop-btn{
+    margin: 3em auto;
+}
+
+    .e-shop-btn a{
+        padding: 0.5em 2em;
+        font-size: 1em;
+    }
+
+    .p-e-shop{
+        margin: 0 27%;
+        text-align: center;
+    }
+
+
+/*//////////////////portfolio section////////////////*/
+
+
+    .main-portfolio{
+        margin: 4em 15% 20em 15%;
+        padding: 0;
+    }
+
+    .portfolio-stuffs{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-areas:
+            "stuff1 stuff2"
+            "stuff3 stuff4"
+            "stuff5 stuff6";
+        column-gap: 20em;
+    }
+
+    .stuff1{
+        grid-area: stuff1;
+    }
+
+    .stuff2{
+        grid-area: stuff2;
+    }
+
+    .stuff3{
+        grid-area: stuff3;
+    }
+
+    .stuff4{
+        grid-area: stuff4;
+    }
+
+    .stuff5{
+        grid-area: stuff5;
+    }
+
+    .stuff6{
+        grid-area: stuff6;
+    }
+
+    .my-stuffs{
+        display: block;
+        height: 15em;
+        margin: 0 auto;
+    }
+
+    .portfolio-btn{
+    margin: 5em auto 0 auto;
+}
+
+    .portfolio-btn a{
+        padding: 0.5em 2em;
+        font-size: 1em;
+    }
+
+    /*//////////////////////////////// more page/////////////////////*/
+
+    .main-more{
+        margin: 4em 15% 20em 15%;
+        padding: 0;
+    }
+
+}
+
+
+
+
+
+
+
+
+
